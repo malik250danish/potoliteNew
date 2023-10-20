@@ -913,9 +913,11 @@ th {
 }
 
 .buttons {
-  padding: 20px 24px 8px;
+  padding-inline: 1.5rem;
+  padding-block: 5px;
   max-width: 225px;
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
   border: 1px solid #dddddd;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -923,6 +925,9 @@ th {
   transition: all 0.3s ease 0s;
   background-color: #fff;
   color: #000 !important;
+  border-radius: 50px;
+  justify-content: center;
+  margin-inline: 1rem;
 }
 
 @media (max-width: 991px) {
@@ -932,10 +937,10 @@ th {
 }
 
 .buttons i {
-  font-size: 44px;
+  font-size: 25px;
   padding-right: 20px;
   color: #eeeeee;
-  margin-top: -8px;
+
 }
 
 .buttons:hover {
@@ -959,10 +964,11 @@ th {
   font-size: 14px;
   line-height: 18px;
   text-align: left;
+  margin-top: 8px;
 }
 
 .buttons p span {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
@@ -2204,7 +2210,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 .main-menu {
-  padding-top: 20px;
+  padding-top: 8px !important;
 }
 
 .main-menu>.row {
@@ -2365,7 +2371,7 @@ h6 {
   color: #333;
   transition: 0.3s;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: none;
 }
 

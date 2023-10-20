@@ -36,3 +36,12 @@
     height: 50%;
     width: 80% !important;
 }
+
+.nav-menu a {
+    border: 2px solid transparent !important;
+    transition: 0.5s all;
+}
+
+.nav-menu a:hover {
+    border-bottom: 2px solid #fff !important;
+}

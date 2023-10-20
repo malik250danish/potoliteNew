@@ -2665,7 +2665,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991px) {
   .home-about-left img {
-    width: 50%;
+    width: 100%;
     height: auto;
     margin-block: 1rem;
   }

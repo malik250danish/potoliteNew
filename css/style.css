@@ -1,0 +1,38 @@
+#logo a {
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+    font-size: larger;
+
+
+}
+
+#logo small {
+    color: #D5DEEF;
+}
+
+
+/* CSS animations for the count-up effect */
+@keyframes count-up {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.count {
+    animation: count-up 1.5s ease-out;
+    animation-fill-mode: forwards;
+    /* Keep the final state of the animation */
+}
+
+.mimg {
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+    height: 50%;
+    width: 80% !important;
+}
